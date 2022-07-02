@@ -9,6 +9,7 @@ public class move : MonoBehaviour
     public int jumpForce;
     private Rigidbody2D body;
     private BoxCollider2D coll;
+    public Animator anim;
 
     [SerializeField] private LayerMask jumpableGround;
 
@@ -35,7 +36,19 @@ public class move : MonoBehaviour
 
 
         float vecX = Input.GetAxis("Horizontal");
+        float vecY = body.velocity.y;
         body.velocity = new Vector2(vecX * moveSpeed, body.velocity.y);
+
+        anim.SetFloat("speed", Mathf.Abs(vecX));
+        Debug.Log(onGround());
+
+
+        anim.SetFloat("ySpeed", vecY);
+        anim.SetBool("onG", onGround());
+
+
+        
+
 
         if(vecX > 0)
         {
