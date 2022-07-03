@@ -10,9 +10,12 @@ public class move : MonoBehaviour
     private Rigidbody2D body;
     private BoxCollider2D coll;
     public Animator anim;
+    public AudioSource deathSound;
+    public AudioSource music;
 
 
     [SerializeField] private LayerMask jumpableGround;
+    [SerializeField] private LayerMask deathZone;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +30,13 @@ public class move : MonoBehaviour
         if(Input.GetKeyDown("space") && onGround())
         {
             body.velocity = new Vector2(body.velocity.x,jumpForce);
+        }
+
+        if(death())
+        {
+            music.Stop();
+            deathSound.Play();
+            Destroy(gameObject);
         }
 
 
@@ -67,5 +77,10 @@ public class move : MonoBehaviour
     private bool onGround()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+    }
+
+    private bool death()
+    {
+        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, deathZone);
     }
 }
