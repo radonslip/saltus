@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: forestTileAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -9154415193153765469, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 2842674715878010297, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 5203414457071667913, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: -7469604468843438024, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 4018169051591116975, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 6845921241470895945, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 4705977573657767536, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 4656624193375791418, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: -6633484889101250200, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: -6744802319430047952, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 3622559243002004400, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 9214954290440355170, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: 4862923507083916191, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: -814958416796190078, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    - {fileID: -7652674903026734830, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -9154415193153765469, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 2842674715878010297, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 5203414457071667913, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: -7469604468843438024, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 4018169051591116975, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 6845921241470895945, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 4705977573657767536, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 4656624193375791418, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: -6633484889101250200, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: -6744802319430047952, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: -814958416796190078, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 4862923507083916191, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 9214954290440355170, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: 3622559243002004400, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  - {fileID: -7652674903026734830, guid: b4f7bb53017b0744db639dbc4d8b4005, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - saltus_forest_0
+  - saltus_forest_1
+  - saltus_forest_2
+  - saltus_forest_3
+  - saltus_forest_4
+  - saltus_forest_5
+  - saltus_forest_6
+  - saltus_forest_7
+  - saltus_forest_8
+  - saltus_forest_9
+  - saltus_forest_13
+  - saltus_forest_12
+  - saltus_forest_11
+  - saltus_forest_10
+  - saltus_forest_14
+  m_RenderDataMap: {}
+  m_Tag: forestTileAtlas
+  m_IsVariant: 0
