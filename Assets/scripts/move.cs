@@ -11,6 +11,7 @@ public class move : MonoBehaviour
     private BoxCollider2D coll;
     public Animator anim;
 
+
     [SerializeField] private LayerMask jumpableGround;
 
     // Start is called before the first frame update
@@ -25,7 +26,7 @@ public class move : MonoBehaviour
     {
         if(Input.GetKeyDown("space") && onGround())
         {
-            body.velocity = new Vector2(0,jumpForce);
+            body.velocity = new Vector2(body.velocity.x,jumpForce);
         }
 
 
@@ -37,12 +38,11 @@ public class move : MonoBehaviour
 
         float vecX = Input.GetAxis("Horizontal");
         float vecY = body.velocity.y;
+
+
         body.velocity = new Vector2(vecX * moveSpeed, body.velocity.y);
 
         anim.SetFloat("speed", Mathf.Abs(vecX));
-        Debug.Log(onGround());
-
-
         anim.SetFloat("ySpeed", vecY);
         anim.SetBool("onG", onGround());
 
