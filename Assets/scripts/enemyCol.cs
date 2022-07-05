@@ -11,6 +11,7 @@ public class enemyCol : gameManager
 
         if(other.tag == "Player")
         {
+            deathSound.Play();
             Destroy(target);
             Destroy(gameObject);
         }

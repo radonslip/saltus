@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testMapWet.unity
     guid: 0359b5b0301d96f43ab1b67a3369aba8
+  - enabled: 1
+    path: Assets/Scenes/mainMenuTest.unity
+    guid: 4a5a10a2840dbaf47bb4149005db0911
   m_configObjects: {}

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class gameManager : MonoBehaviour
 {
+    public AudioSource deathSound;
 
 
 }

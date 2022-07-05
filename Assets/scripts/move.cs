@@ -10,7 +10,6 @@ public class move : gameManager
     private Rigidbody2D body;
     private BoxCollider2D coll;
     public Animator anim;
-    public AudioSource deathSound;
     public AudioSource music;
 
 

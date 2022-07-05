@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 8302966112216809299}
   - component: {fileID: 6586651784994438841}
   - component: {fileID: 5720274707824553001}
-  - component: {fileID: 5481125993632686191}
   - component: {fileID: 5902983919771160073}
   - component: {fileID: 2787524865754757382}
   - component: {fileID: 7393455060463579089}
+  - component: {fileID: 2010497779568273355}
   m_Layer: 0
   m_Name: enemy0
   m_TagString: enemy
@@ -196,19 +196,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5481125993632686191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4270490305862057783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00835d84e4fb3f348b642945972a6f93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!95 &5902983919771160073
 Animator:
   serializedVersion: 3
@@ -270,6 +257,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.4
+--- !u!114 &2010497779568273355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4270490305862057783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00835d84e4fb3f348b642945972a6f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSound: {fileID: 0}
+  target: {fileID: 0}
 --- !u!1 &7926048608391210096
 GameObject:
   m_ObjectHideFlags: 0
