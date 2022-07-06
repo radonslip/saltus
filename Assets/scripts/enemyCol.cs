@@ -5,7 +5,7 @@ using Pathfinding;
 
 public class enemyCol : gameManager
 {
-    public GameObject player;
+    private GameObject player;
     public AIPath path;
     public AIDestinationSetter targ;
 

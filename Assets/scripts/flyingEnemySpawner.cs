@@ -5,7 +5,7 @@ using UnityEngine;
 public class flyingEnemySpawner : MonoBehaviour
 {
     public GameObject enemy;
-    public GameObject player;
+    private GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -16,13 +16,14 @@ public class flyingEnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        player = GameObject.Find("player");
         int willSpawn = Random.Range(0,1000);
+        int spawnRange = Random.Range(-5,5);
 
-        if(willSpawn > 995)
+        if(willSpawn > 998)
         {
             Debug.Log("Spawn");
-            Instantiate(enemy, new Vector2(0,0), player.transform.rotation);
+            Instantiate(enemy, new Vector2(player.transform.position.x + spawnRange,player.transform.position.y + 5), player.transform.rotation);
         }
     }
 }
