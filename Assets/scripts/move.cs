@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move : MonoBehaviour
+public class move : gameManager
 {
 
     public int moveSpeed;
@@ -10,7 +10,6 @@ public class move : MonoBehaviour
     private Rigidbody2D body;
     private BoxCollider2D coll;
     public Animator anim;
-    public AudioSource deathSound;
     public AudioSource music;
 
 
