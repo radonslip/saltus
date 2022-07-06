@@ -11,6 +11,8 @@ public class move : gameManager
     private BoxCollider2D coll;
     public Animator anim;
     public AudioSource music;
+    public AudioSource jump;
+
 
 
     [SerializeField] private LayerMask jumpableGround;
@@ -28,6 +30,7 @@ public class move : gameManager
     {
         if(Input.GetKeyDown("space") && onGround())
         {
+            jump.Play();
             body.velocity = new Vector2(body.velocity.x,jumpForce);
         }
 

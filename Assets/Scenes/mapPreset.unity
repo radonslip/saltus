@@ -268,9 +268,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a2dbcefa9c0bfc244a7721e2c11f105c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c618b81c39690344d88b9ffab001bf0c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.816
+  m_Volume: 0.393
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -422,6 +422,10 @@ PrefabInstance:
     - target: {fileID: 5387689273155360687, guid: be240f6a82da0484bb82563e044bf586, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7009201008990311220, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+      propertyPath: Priority
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 7976292977220082491, guid: be240f6a82da0484bb82563e044bf586, type: 3}
       propertyPath: music
@@ -23321,7 +23325,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7765191, y: 1}
+    m_SensorSize: {x: 1.7785589, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
