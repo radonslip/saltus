@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class flyingEnemySpawner : MonoBehaviour
+public class flyingEnemySpawner : gameManager
 {
     public GameObject enemy;
     private GameObject player;
