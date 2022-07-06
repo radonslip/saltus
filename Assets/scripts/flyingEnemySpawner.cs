@@ -6,6 +6,7 @@ public class flyingEnemySpawner : MonoBehaviour
 {
     public GameObject enemy;
     private GameObject player;
+    public int spawnRate;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class flyingEnemySpawner : MonoBehaviour
         int willSpawn = Random.Range(0,1000);
         int spawnRange = Random.Range(-5,5);
 
-        if(willSpawn > 998)
+        if(willSpawn > spawnRate)
         {
             Debug.Log("Spawn");
             Instantiate(enemy, new Vector2(player.transform.position.x + spawnRange,player.transform.position.y + 5), player.transform.rotation);
