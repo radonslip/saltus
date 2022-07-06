@@ -12,7 +12,6 @@ public class goalSceneChange : MonoBehaviour
 
         if(other.tag == "Player")
         {
-            Debug.Log("Wins");
             SceneManager.LoadScene(sceneName:"mainMenuTest");
         }
 
