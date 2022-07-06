@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  target: {fileID: 0}
+  target: {fileID: 5387689273155360687, guid: be240f6a82da0484bb82563e044bf586, type: 3}
 --- !u!50 &5720274707824553001
 Rigidbody2D:
   serializedVersion: 4
@@ -270,7 +270,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSound: {fileID: 0}
-  target: {fileID: 0}
+  player: {fileID: 3470453942042665707, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+  path: {fileID: 8302966112216809299}
+  targ: {fileID: 6586651784994438841}
 --- !u!1 &7926048608391210096
 GameObject:
   m_ObjectHideFlags: 0
