@@ -39,6 +39,7 @@ public class enemyCol : gameManager
     void Update()
     {
         deathSound = (GameObject.Find("death")).GetComponent<AudioSource>();
+        Debug.Log(deathSound);
         if(path.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector2(1f,1f);
