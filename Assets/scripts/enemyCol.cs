@@ -13,6 +13,7 @@ public class enemyCol : gameManager
     {
         player = GameObject.Find("player");
         targ.target = player.transform;
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -20,7 +21,7 @@ public class enemyCol : gameManager
 
         if(other.tag == "Player")
         {
-            // deathSound.Play();
+            deathSound.Play();
             Destroy(player);
             Destroy(gameObject);
         }
@@ -37,6 +38,7 @@ public class enemyCol : gameManager
 
     void Update()
     {
+        deathSound = (GameObject.Find("death")).GetComponent<AudioSource>();
         if(path.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector2(1f,1f);
