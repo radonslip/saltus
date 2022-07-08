@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class move : gameManager
 {
@@ -25,6 +26,7 @@ public class move : gameManager
             music.Stop();
             Destroy(other.transform.parent.gameObject);
             Destroy(gameObject);
+            SceneManager.LoadScene(sceneName: "mainMenuTest");
         }
     }
 
@@ -48,6 +50,7 @@ public class move : gameManager
             music.Stop();
             deathSound.Play();
             Destroy(gameObject);
+            SceneManager.LoadScene(sceneName: "mainMenuTest");
         }
 
 
