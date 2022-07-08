@@ -16,6 +16,18 @@ public class move : gameManager
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private LayerMask deathZone;
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if(other.tag == "enemy")
+        {
+            deathSound.Play();
+            music.Stop();
+            Destroy(other.transform.parent.gameObject);
+            Destroy(gameObject);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
