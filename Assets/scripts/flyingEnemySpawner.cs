@@ -7,6 +7,8 @@ public class flyingEnemySpawner : gameManager
     public GameObject enemy;
     private GameObject player;
 
+    public int spawnPast;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +22,15 @@ public class flyingEnemySpawner : gameManager
         int willSpawn = Random.Range(0,1000);
         int spawnRange = Random.Range(-5,5);
 
-        if(willSpawn > 998)
+        if(player.transform.position.x > spawnPast)
         {
-            Debug.Log("Spawn");
-            Instantiate(enemy, new Vector2(player.transform.position.x + spawnRange,player.transform.position.y + 5), player.transform.rotation);
+            if(willSpawn > 998)
+            {
+                Instantiate(enemy, new Vector2(player.transform.position.x + spawnRange,player.transform.position.y + 5), player.transform.rotation);
+            }
         }
+
     }
+
+
 }
