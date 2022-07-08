@@ -12,7 +12,8 @@ public class playButton : MonoBehaviour
         Button btn = PB.GetComponent<Button>();
         btn.onClick.AddListener(onPress);
     }
-    void onPress(){
+    public void onPress(){
+        // Debug.Log("Press");
         SceneManager.LoadScene(sceneName:"testMapWet");
         
     }
