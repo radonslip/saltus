@@ -32,15 +32,36 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 8d9a101aedd26d544a9509e23dc7dc04, type: 3}
+    - {fileID: -6838822857762356897, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+    - {fileID: 6392225788465319439, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+    - {fileID: -7768302755621135973, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+    - {fileID: -8205621406480288383, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+    - {fileID: 6974633540423421554, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+    - {fileID: -5712569490966548787, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+    - {fileID: -8110471067574793358, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+    - {fileID: 946970994052205867, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 8d9a101aedd26d544a9509e23dc7dc04, type: 3}
+  - {fileID: -8110471067574793358, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+  - {fileID: 946970994052205867, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+  - {fileID: 6974633540423421554, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+  - {fileID: -5712569490966548787, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+  - {fileID: -7768302755621135973, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+  - {fileID: -8205621406480288383, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+  - {fileID: -6838822857762356897, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
+  - {fileID: 6392225788465319439, guid: 6b3a5968529d5f748bf5602e79e6db98, type: 3}
   m_PackedSpriteNamesToIndex:
-  - beach
+  - saltus_beach_6
+  - saltus_beach_7
+  - saltus_beach_4
+  - saltus_beach_5
+  - saltus_beach_2
+  - saltus_beach_3
+  - saltus_beach_0
+  - saltus_beach_1
   m_RenderDataMap: {}
   m_Tag: beachTileAtlas
   m_IsVariant: 0
