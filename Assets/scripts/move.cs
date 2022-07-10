@@ -12,6 +12,7 @@ public class move : gameManager
     private BoxCollider2D coll;
     public Animator anim;
     public AudioSource music;
+    public AudioSource deathSound;
 
 
     [SerializeField] private LayerMask jumpableGround;
@@ -52,7 +53,6 @@ public class move : gameManager
             Destroy(gameObject);
             SceneManager.LoadScene(sceneName: "mainMenuTest");
         }
-
 
     }
 

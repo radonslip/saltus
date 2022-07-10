@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/testMap.unity
     guid: 7e819aba849a8654fb2c1e0f6aec390d
   - enabled: 1
+    path: Assets/Scenes/originLoad.unity
+    guid: 6a9a04f3e98bbeb4e9e929577c508cce
+  - enabled: 1
     path: Assets/Scenes/beachOpening.unity
     guid: 3e614d81324b5684eae15a41dff6a837
   - enabled: 1

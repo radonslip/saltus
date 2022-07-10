@@ -15160,6 +15160,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5350338351875039801, guid: 488d8257d4338a54db28b6b1ee87ef19, type: 3}
+      propertyPath: sOM
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350338351875039801, guid: 488d8257d4338a54db28b6b1ee87ef19, type: 3}
       propertyPath: targetScene
       value: mainMenuTest
       objectReference: {fileID: 0}
