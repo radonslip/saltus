@@ -7,7 +7,8 @@ public class goalSceneChange : gameManager
 {
     public GameObject player;
     public string targetScene;
-    public gameManager gm;
+    public int levelID;
+    private gameManager gm;
 
     void Start()
     {
@@ -23,8 +24,9 @@ public class goalSceneChange : gameManager
 
         if(other.tag == "Player")
         {
-
+            gm.level = levelID;
             saveGame.saveData(gm);
+            Debug.Log(gm.level);
             SceneManager.LoadScene(sceneName: targetScene);
         }
 
