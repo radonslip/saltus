@@ -8,7 +8,7 @@ public static class saveGame
     {
         BinaryFormatter bm = new BinaryFormatter();
 
-        string path = Application.persistentDataPath + "/gameData.sav";
+        string path = Application.persistentDataPath + "/gameData.shaft";
         FileStream stream = new FileStream(path, FileMode.Create);
         gameData data = new gameData(gm); 
         // Debug.Log(data.sOM);
@@ -19,7 +19,7 @@ public static class saveGame
 
     public static gameData loadGame()
     {
-        string path = Application.persistentDataPath + "/gameData.sav";
+        string path = Application.persistentDataPath + "/gameData.shaft";
         if(File.Exists(path))
         {
             BinaryFormatter bm = new BinaryFormatter();

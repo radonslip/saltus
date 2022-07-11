@@ -263,7 +263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'By Cockbrethren
+  m_text: 'Shaft Squad
 
 '
   m_isRightToLeft: 0
@@ -274,8 +274,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4279087548
+  m_fontColor: {r: 0.735849, g: 0.69510627, b: 0.051370565, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 7
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1128,6 +1128,7 @@ MonoBehaviour:
   sOM: 0
   level: 0
   RB: {fileID: 2141278182}
+  gm: {fileID: 0}
 --- !u!1 &377622996306459435
 GameObject:
   m_ObjectHideFlags: 0

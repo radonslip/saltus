@@ -10,7 +10,7 @@ public class originLoader : gameManager
     void Start()
     {
         Cursor.visible = true;
-        string path = Application.persistentDataPath + "/gameData.sav";
+        string path = Application.persistentDataPath + "/gameData.shaft";
         if(File.Exists(path))
         {
             gameData data = saveGame.loadGame();
