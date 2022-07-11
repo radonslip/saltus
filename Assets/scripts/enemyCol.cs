@@ -26,6 +26,7 @@ public class enemyCol : gameManager
         else if(other.tag == "enemy")
         {
             Destroy(gameObject);
+            // Debug.Log("Help");
         }
 
     }

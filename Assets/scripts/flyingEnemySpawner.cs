@@ -8,6 +8,7 @@ public class flyingEnemySpawner : gameManager
     private GameObject player;
 
     public int spawnPast;
+    public int spawnRate;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,7 @@ public class flyingEnemySpawner : gameManager
 
         if(player.transform.position.x > spawnPast)
         {
-            if(willSpawn > 998)
+            if(willSpawn > spawnRate)
             {
                 Instantiate(enemy, new Vector2(player.transform.position.x + spawnRange,player.transform.position.y + 5), player.transform.rotation);
             }
