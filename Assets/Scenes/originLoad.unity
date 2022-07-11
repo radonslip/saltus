@@ -153,7 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2aef93012101ee4e88f01478db87340, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathSound: {fileID: 0}
   sOM: 0
   level: 0
 --- !u!4 &3969848514395496518
@@ -182,6 +181,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd8ae633a6d8dc43bb1f43ab084bc46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathSound: {fileID: 0}
   sOM: 0
   level: 0
