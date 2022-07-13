@@ -10,17 +10,12 @@ public class flyingEnemySpawner : gameManager
     public int spawnPast;
     public int spawnRate;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         player = GameObject.Find("player");
-        int willSpawn = Random.Range(0,1000);
+        int willSpawn = Random.Range(0,10000);
         int spawnRange = Random.Range(-5,5);
 
         if(player.transform.position.x > spawnPast)

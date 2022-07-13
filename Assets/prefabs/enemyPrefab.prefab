@@ -195,7 +195,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &5902983919771160073
 Animator:
   serializedVersion: 3
@@ -269,7 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00835d84e4fb3f348b642945972a6f93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathSound: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+  isAlive: 1
+  sOM: 0
+  level: 0
   path: {fileID: 8302966112216809299}
   targ: {fileID: 6586651784994438841}
 --- !u!1 &7926048608391210096

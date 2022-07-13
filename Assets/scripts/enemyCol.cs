@@ -23,11 +23,11 @@ public class enemyCol : gameManager
         {
             Destroy(gameObject);
         }
-        else if(other.tag == "enemy")
-        {
-            Destroy(gameObject);
-            // Debug.Log("Help");
-        }
+        // else if(other.tag == "enemy")
+        // {
+        //     Destroy(gameObject);
+        //     // Debug.Log("Help");
+        // }
 
     }
 

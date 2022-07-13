@@ -10610,7 +10610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5241479736627775206, guid: 905aabe4b803d794280a9f425b94b595, type: 3}
       propertyPath: spawnRate
-      value: 995
+      value: 9990
       objectReference: {fileID: 0}
     - target: {fileID: 5241479736627775206, guid: 905aabe4b803d794280a9f425b94b595, type: 3}
       propertyPath: deathSound
