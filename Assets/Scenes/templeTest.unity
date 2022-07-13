@@ -10605,12 +10605,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5241479736627775206, guid: 905aabe4b803d794280a9f425b94b595, type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 2079530050354749145, guid: f9c159c32fb928d43b37a01d1061fcaa, type: 3}
+    - target: {fileID: 5241479736627775206, guid: 905aabe4b803d794280a9f425b94b595, type: 3}
       propertyPath: spawnPast
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5241479736627775206, guid: 905aabe4b803d794280a9f425b94b595, type: 3}
       propertyPath: spawnRate
-      value: 9990
+      value: 9950
       objectReference: {fileID: 0}
     - target: {fileID: 5241479736627775206, guid: 905aabe4b803d794280a9f425b94b595, type: 3}
       propertyPath: deathSound

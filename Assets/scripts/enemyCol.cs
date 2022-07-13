@@ -8,11 +8,15 @@ public class enemyCol : gameManager
     private GameObject player;
     public AIPath path;
     public AIDestinationSetter targ;
+    private Rigidbody2D rb;
 
     void Start()
     {
         player = GameObject.Find("player");
         targ.target = player.transform;
+        rb = GetComponent<Rigidbody2D>();
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        
 
     }
 

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/templeTest.unity
     guid: ba6e69355df31014ba3216c81a98b144
+  - enabled: 1
+    path: Assets/Scenes/finalLevels/beachWorld/beachLevel1.unity
+    guid: 9a49633b412510c4d9709f07005e1d96
   m_configObjects: {}

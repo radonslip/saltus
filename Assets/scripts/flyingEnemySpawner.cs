@@ -12,7 +12,7 @@ public class flyingEnemySpawner : gameManager
 
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         player = GameObject.Find("player");
         int willSpawn = Random.Range(0,10000);
@@ -22,7 +22,7 @@ public class flyingEnemySpawner : gameManager
         {
             if(willSpawn > spawnRate)
             {
-                Instantiate(enemy, new Vector2(player.transform.position.x + spawnRange,player.transform.position.y + 5), player.transform.rotation);
+                Instantiate(enemy, new Vector2(player.transform.position.x + spawnRange,player.transform.position.y + 10), player.transform.rotation);
             }
         }
 
