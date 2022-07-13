@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: templeAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2696385749799428420, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: 4215110278145303868, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: -1565644316300988165, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: -8741286137116435960, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: 628424063548581060, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: -7714928018263261389, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: -2869744808153126334, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: -4487816218744948713, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: 294931588304218224, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: -1589471316645929426, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    - {fileID: 5446699860210809217, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 294931588304218224, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: -1589471316645929426, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: -1565644316300988165, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: -8741286137116435960, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: 2696385749799428420, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: 4215110278145303868, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: -2869744808153126334, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: -4487816218744948713, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: 628424063548581060, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: -7714928018263261389, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  - {fileID: 5446699860210809217, guid: e6433255ebad82749baae9d15eab2b1d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - templetiles_8
+  - templetiles_9
+  - templetiles_2
+  - templetiles_3
+  - templetiles_0
+  - templetiles_1
+  - templetiles_6
+  - templetiles_7
+  - templetiles_4
+  - templetiles_5
+  - templetiles_10
+  m_RenderDataMap: {}
+  m_Tag: templeAtlas
+  m_IsVariant: 0

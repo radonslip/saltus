@@ -27565,7 +27565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5350338351875039801, guid: fa15211103c25a74fb82f32be68a4a0a, type: 3}
       propertyPath: targetScene
-      value: mainMenuTest
+      value: templeTest
       objectReference: {fileID: 0}
     - target: {fileID: 5350338351875039802, guid: fa15211103c25a74fb82f32be68a4a0a, type: 3}
       propertyPath: m_Name

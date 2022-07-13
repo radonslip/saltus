@@ -13,6 +13,7 @@ public class move : gameManager
     public Animator anim;
     public AudioSource music;
     public AudioSource deathSound;
+    private gameManager gm;
 
 
     [SerializeField] private LayerMask jumpableGround;
@@ -27,7 +28,7 @@ public class move : gameManager
             music.Stop();
             Destroy(other.transform.parent.gameObject);
             Destroy(gameObject);
-            SceneManager.LoadScene(sceneName: "mainMenuTest");
+            gm.isAlive = false;
         }
     }
 
@@ -36,6 +37,8 @@ public class move : gameManager
     {
         body = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
+
+        gm = GameObject.Find("gameManager").GetComponent<gameManager>();
     }
 
     // Update is called once per frame
@@ -51,7 +54,7 @@ public class move : gameManager
             music.Stop();
             deathSound.Play();
             Destroy(gameObject);
-            SceneManager.LoadScene(sceneName: "mainMenuTest");
+            gm.isAlive = false;
         }
 
     }

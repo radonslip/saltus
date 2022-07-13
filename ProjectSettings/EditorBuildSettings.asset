@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testMapWet.unity
     guid: 0359b5b0301d96f43ab1b67a3369aba8
+  - enabled: 1
+    path: Assets/Scenes/templeTest.unity
+    guid: ba6e69355df31014ba3216c81a98b144
   m_configObjects: {}

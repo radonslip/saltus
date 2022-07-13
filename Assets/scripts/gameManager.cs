@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class gameManager : MonoBehaviour
 {
-
+    public bool isAlive = true;
 
     public bool sOM;
     public int level;
@@ -16,6 +16,25 @@ public class gameManager : MonoBehaviour
             level = data.level;
             sOM = data.sOM;
             sOM = true;
+    }
+
+    void Update()
+    {
+        if(isAlive == false)
+        {
+            StartCoroutine("Die");
+        }
+        // else
+        // {
+        //     Debug.Log("gffgf");
+        // }
+
+    }
+
+    IEnumerator Die()
+    {
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(sceneName: "mainMenuTest");
     }
 
 
