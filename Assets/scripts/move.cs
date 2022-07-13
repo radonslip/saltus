@@ -49,13 +49,13 @@ public class move : gameManager
             body.velocity = new Vector2(body.velocity.x,jumpForce);
         }
 
-        if(death())
-        {
-            music.Stop();
-            deathSound.Play();
-            Destroy(gameObject);
-            gm.isAlive = false;
-        }
+        // if(death())
+        // {
+        //     music.Stop();
+        //     deathSound.Play();
+        //     Destroy(gameObject);
+        //     gm.isAlive = false;
+        // }
 
     }
 
@@ -72,6 +72,14 @@ public class move : gameManager
         anim.SetFloat("speed", Mathf.Abs(vecX));
         anim.SetFloat("ySpeed", vecY);
         anim.SetBool("onG", onGround());
+
+        if(death())
+        {
+            music.Stop();
+            deathSound.Play();
+            Destroy(gameObject);
+            gm.isAlive = false;
+        }
 
 
         
@@ -98,6 +106,6 @@ public class move : gameManager
 
     private bool death()
     {
-        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, deathZone);
+        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .01f, deathZone);
     }
 }
