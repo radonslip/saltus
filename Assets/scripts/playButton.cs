@@ -14,7 +14,7 @@ public class playButton : MonoBehaviour
     }
     public void onPress(){
         // Debug.Log("Press");
-        SceneManager.LoadScene(sceneName:"beachLevel1");
+        SceneManager.LoadScene(sceneName:"levelSelect");
         
     }
 }
