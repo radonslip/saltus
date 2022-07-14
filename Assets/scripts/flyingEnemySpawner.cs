@@ -16,7 +16,7 @@ public class flyingEnemySpawner : gameManager
     {
         player = GameObject.Find("player");
         int willSpawn = Random.Range(0,10000);
-        int spawnRange = Random.Range(-5,5);
+        int spawnRange = Random.Range(-10,10);
 
         if(player.transform.position.x > spawnPast)
         {

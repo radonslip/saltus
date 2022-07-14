@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.9578202, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1586999172}
   swStage1: 23
-  swStage2: 0
+  swStage2: 10000
   swStage1Text: Water will kill you
   swStage2Text: 
   removeTextAfter: 50
@@ -541,7 +541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5350338351875039801, guid: d1dc97b56fb263b4aa582f792ca5b9a6, type: 3}
       propertyPath: targetScene
-      value: testMapWet
+      value: beachLevel2
       objectReference: {fileID: 0}
     - target: {fileID: 5350338351875039802, guid: d1dc97b56fb263b4aa582f792ca5b9a6, type: 3}
       propertyPath: m_Name

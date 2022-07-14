@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mountainAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -1744469461191635185, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: 628533472840690293, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: 6921105521766848084, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -3239174174234474817, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -7892648800622773734, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -2844936731337128398, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -423314205872969770, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -7470713079317499836, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -4570701057377991111, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -7833480015992391821, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -4341295955437889991, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -4056777025498941386, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -7335246656466665969, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -7505121543965704337, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -7752688980921286474, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -6858498892420010864, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: 4019740937469175410, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -5346251566518052891, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    - {fileID: -5567619641469749258, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -1744469461191635185, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: 628533472840690293, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: 6921105521766848084, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -3239174174234474817, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -7892648800622773734, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -2844936731337128398, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -423314205872969770, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -7470713079317499836, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -4570701057377991111, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -7833480015992391821, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -7505121543965704337, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -7335246656466665969, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -4056777025498941386, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -4341295955437889991, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -5346251566518052891, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: 4019740937469175410, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -6858498892420010864, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -7752688980921286474, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  - {fileID: -5567619641469749258, guid: 252aa153aa0d0b544910fdcee993c35f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mountaintiles_0
+  - mountaintiles_1
+  - mountaintiles_2
+  - mountaintiles_3
+  - mountaintiles_4
+  - mountaintiles_5
+  - mountaintiles_6
+  - mountaintiles_7
+  - mountaintiles_8
+  - mountaintiles_9
+  - mountaintiles_13
+  - mountaintiles_12
+  - mountaintiles_11
+  - mountaintiles_10
+  - mountaintiles_17
+  - mountaintiles_16
+  - mountaintiles_15
+  - mountaintiles_14
+  - mountaintiles_18
+  m_RenderDataMap: {}
+  m_Tag: mountainAtlas
+  m_IsVariant: 0

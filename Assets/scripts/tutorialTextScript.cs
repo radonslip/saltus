@@ -25,13 +25,14 @@ public class tutorialTextScript : MonoBehaviour
     {
         this.transform.position = new Vector2(player.transform.position.x,player.transform.position.y + 1);
 
-        if(player.transform.position.x > swStage1)
-        {
-            this.GetComponent<UnityEngine.UI.Text>().text = swStage1Text;
-        }
-        else if(player.transform.position.x > swStage2)
+        if(player.transform.position.x > swStage2)
         {
             this.GetComponent<UnityEngine.UI.Text>().text = swStage2Text;
+        }
+
+        else if(player.transform.position.x > swStage1)
+        {
+            this.GetComponent<UnityEngine.UI.Text>().text = swStage1Text;
         }
 
         if(player.transform.position.x > removeTextAfter)
