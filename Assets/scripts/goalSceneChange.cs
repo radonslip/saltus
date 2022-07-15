@@ -24,7 +24,10 @@ public class goalSceneChange : gameManager
 
         if(other.tag == "Player")
         {
-            gm.level = levelID;
+            if(gm.level < levelID)
+            {
+                gm.level = levelID;
+            }
             saveGame.saveData(gm);
             Debug.Log(gm.level);
             SceneManager.LoadScene(sceneName: targetScene);
