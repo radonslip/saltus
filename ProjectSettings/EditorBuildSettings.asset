@@ -41,4 +41,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StageSelect.unity
     guid: 3353b4f97b18df54399e2f12f91f6e0f
+  - enabled: 1
+    path: Assets/Scenes/finalLevels/forestWorld/forestLevel1.unity
+    guid: ef4799d8b1cff2048ac31e9daf823c53
+  - enabled: 1
+    path: Assets/Scenes/levelSelect.unity
+    guid: 48877929956d86a4ba326b2fcabbc7d2
   m_configObjects: {}

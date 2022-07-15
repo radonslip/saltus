@@ -34,7 +34,7 @@ public class gameManager : MonoBehaviour
     IEnumerator Die()
     {
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(sceneName: "mainMenuTest");
+        SceneManager.LoadScene(sceneName: "levelSelect");
     }
 
 
