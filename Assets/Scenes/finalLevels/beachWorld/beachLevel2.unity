@@ -479,7 +479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5350338351875039801, guid: 2a724e234f4e8a34bae39d9fc71dda50, type: 3}
       propertyPath: targetScene
-      value: beachLevel3
+      value: levelSelect
       objectReference: {fileID: 0}
     - target: {fileID: 5350338351875039802, guid: 2a724e234f4e8a34bae39d9fc71dda50, type: 3}
       propertyPath: m_Name
@@ -542,6 +542,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+      propertyPath: Priority
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a7f8d437ae0c8044aabf54b414b5405c, type: 3}
+    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3470453942042665707, guid: 1e15b77a43b70284899a3493ecf92e2b, type: 3}
       propertyPath: m_Name
       value: player
@@ -598,18 +610,6 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1280378583}
-    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
-      propertyPath: Priority
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: a7f8d437ae0c8044aabf54b414b5405c, type: 3}
-    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e15b77a43b70284899a3493ecf92e2b, type: 3}
 --- !u!1 &961382717 stripped
