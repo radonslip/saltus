@@ -8,6 +8,7 @@ public class worldSelectButton : MonoBehaviour
 {
     // Start is called before the first frame update
     public static string loadedWorld = "0";
+    public int worldId;
     public Button WSB;
     public void Start()
     {
@@ -24,22 +25,22 @@ public class worldSelectButton : MonoBehaviour
         Debug.Log(ButtonText.text);
 
         
-        if(ButtonText.text == "ForestButton")
+        if(worldId == 1)
         {
-            loadedWorld = "2";
+            loadedWorld = "1";
                 SceneManager.LoadScene(sceneName:"StageSelect");
         }
-        else if (ButtonText.text == "beachButton")
+        else if (worldId == 2)
         {       
-                loadedWorld = "1";
+                loadedWorld = "2";
                 SceneManager.LoadScene(sceneName:"StageSelect");
         }
-        else if (ButtonText.text == "MountainButton")
+        else if (worldId == 3)
         {
             loadedWorld = "3";
                 SceneManager.LoadScene(sceneName:"StageSelect");
         }
-        else if (ButtonText.text == "TempleButton")
+        else if (worldId == 4)
         {
             loadedWorld = "4";
                 SceneManager.LoadScene(sceneName:"StageSelect");

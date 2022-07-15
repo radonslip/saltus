@@ -132,9 +132,10 @@ public class stageSelect : MonoBehaviour
                 Debug.Log("3-3");
                 SceneManager.LoadScene(sceneName:"mountainLevel3");
             }
+        }
         else if(worldSelectButton.loadedWorld == "4")
         {
-            if(ButtonText.text == "stage1")
+            if(buttonID == 1)
             {
                 Debug.Log("4-1");
                 SceneManager.LoadScene(sceneName:"templeLevel1");
@@ -151,5 +152,5 @@ public class stageSelect : MonoBehaviour
             }
         }
         }
-    }
 }
+
