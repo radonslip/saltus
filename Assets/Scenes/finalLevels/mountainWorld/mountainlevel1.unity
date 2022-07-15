@@ -476,18 +476,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
-      propertyPath: Priority
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: a7f8d437ae0c8044aabf54b414b5405c, type: 3}
-    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3470453942042665707, guid: 50c263ec6d8115f47b69176d68f90671, type: 3}
       propertyPath: m_Name
       value: player
@@ -544,6 +532,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1280378583}
+    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+      propertyPath: Priority
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a7f8d437ae0c8044aabf54b414b5405c, type: 3}
+    - target: {fileID: 4298433813565444846, guid: be240f6a82da0484bb82563e044bf586, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50c263ec6d8115f47b69176d68f90671, type: 3}
 --- !u!1 &966952660
