@@ -62,4 +62,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/finalLevels/forestWorld/forestLevel3.unity
     guid: 7235da83276cd9843943ba2ce0ad5618
+  - enabled: 1
+    path: Assets/Scenes/finalLevels/templeWorld/templeLevel2.unity
+    guid: 4bd3fb236f410134499cc01d34330082
+  - enabled: 1
+    path: Assets/Scenes/finalLevels/mountainWorld/mountainlevel3.unity
+    guid: 09dc2cbb095b4174fb75a44e33c03d43
   m_configObjects: {}
