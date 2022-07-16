@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/finalLevels/forestWorld/forestLevel2.unity
     guid: cf7e8ba5fe8d43e4899ad497f87ac7ad
+  - enabled: 1
+    path: Assets/Scenes/finalLevels/forestWorld/forestLevel3.unity
+    guid: 7235da83276cd9843943ba2ce0ad5618
   m_configObjects: {}

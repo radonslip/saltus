@@ -15,7 +15,6 @@ public class worldSelectButton : MonoBehaviour
     {
         Button btn = WSB.GetComponent<Button>();
         gm = GameObject.Find("gameManager").GetComponent<gameManager>();
-        Debug.Log(gm.level);
         
         btn.onClick.AddListener(onPress);
         
