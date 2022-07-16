@@ -9,68 +9,6 @@ public class stageSelect : MonoBehaviour
     public Button SSB;
     private gameManager gm;
     public int buttonID;
-    // Start is called before the first frame update
-    // void Start()
-    // {
-    //     Button btn = SSB.GetComponent<Button>();
-    //     var ButtonColour = SSB.GetComponent<SpriteRenderer>();
-    //     Debug.Log(worldSelectButton.loadedWorld);
-    //     btn.onClick.AddListener(onPress);
-    //     gm = GameObject.Find("gameManager").GetComponent<gameManager>();
-
-    //     // if(worldSelectButton.loadedWorld == "1")
-    //     // {
-    //     //     if(gm.level > buttonID)
-    //     //     // {
-    //     //     //     this.SpriteRenderer.color = "#000000";
-    //     // }
-    //     // else if(worldSelectButton.loadedWorld == "2")
-    //     // {
-    //     //     if(gm.level <4)
-    //     //     {
-            
-    //     //     }
-    //     //     else if(gm.level <5)
-    //     //     {
-                
-    //     //     }
-    //     //     else if(gm.level <6)
-    //     //     {
-               
-    //     //     }
-    //     // }
-    //     // else if(worldSelectButton.loadedWorld == "3")
-    //     // {
-    //     //     if(gm.level <7)
-    //     //     {
-
-    //     //     }
-    //     //     else if(gm.level <8)
-    //     //     {
-                
-    //     //     }
-    //     //     else if(gm.level <9)
-    //     //     {
-               
-    //     //     }
-    //     // else if(worldSelectButton.loadedWorld == "4")
-    //     // {
-    //     //     if(gm.level <10)
-    //     //     {
-              
-    //     //     }
-    //     //     else if(gm.level <11)
-    //     //     {
-               
-    //     //     }
-    //     //     else if(gm.level <12)
-    //     //     {
-
- 
-    //     //     }
-    //     // }
-    //     }
-    // }
     // Update is called once per frame
    public void onPress()
     {
@@ -148,7 +86,7 @@ public class stageSelect : MonoBehaviour
             else if(ButtonText.text == "stage3")
             {
                 Debug.Log("4-3");
-                SceneManager.LoadScene(sceneName:"templeLevel3");
+                SceneManager.LoadScene(sceneName:"beforet3");
             }
         }
         }
