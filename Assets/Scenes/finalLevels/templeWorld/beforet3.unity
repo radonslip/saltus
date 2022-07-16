@@ -340,7 +340,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play?
+  m_Text: Play
 --- !u!222 &581074738
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -586,25 +586,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: ' Hey, thanks for making it this far, sorry for any bugs we didn''t
-
-    catch.
-
-
-    For
-    this level we were going to do a boss but we ran out of time
-
-    to really add
-    anything good, so instead you can have this extreme
-
-    bird level instead.
-    If you can beat it then well done. It might
-
-    cause some lag so beware.
-
-
-    Good
-    Luck.'
+  m_Text: " Hey, thanks for making it this far, sorry for any bugs we didn't\ncatch.\n\nFor
+    this level we were going to do a boss but we ran out of time\nto really add anything
+    good, so instead you can have this extreme\nbird level instead.  I don't even
+    know if it's possible. \nIf you can beat it then well done. It might\ncause some
+    lag so beware.\n\nGood Luck."
 --- !u!222 &2051254929
 CanvasRenderer:
   m_ObjectHideFlags: 0
